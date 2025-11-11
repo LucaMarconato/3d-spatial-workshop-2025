@@ -1,0 +1,14 @@
+[project]
+name = "spatial-workshop-2025"
+version = "0.0.1"
+description = "Workshop on 3D spatial omics data"
+authors = [
+    { name = "Luca Marconato", email = "luca.marconato@scverse.org" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "tissue-map-tools @ git+https://github.com/hms-dbmi/tissue-map-tools@fixes-for-workshop",
+    "spatialdata @ git+https://github.com/scverse/spatialdata@dask-unpinned-3d-support",
+    "napari-spatialdata @ git+https://github.com/scverse/napari-spatialdata@better_3d",
+    "pyqt5>=5.15.11",
+]
