@@ -10,5 +10,20 @@ dependencies = [
     "tissue-map-tools @ git+https://github.com/hms-dbmi/tissue-map-tools@fixes-for-workshop",
     "spatialdata @ git+https://github.com/scverse/spatialdata@dask-unpinned-3d-support",
     "napari-spatialdata @ git+https://github.com/scverse/napari-spatialdata@better_3d",
+    "easy_vitessce @ git+https://github.com/LucaMarconato/easy_vitessce@unpin-dask",
     "pyqt5>=5.15.11",
+    "lamindb>=1.15.2",
+    "neuroglancer>=2.41.2",
+    "bionty>=1.8.1",
+    "harpy-analysis",
+    "ovrlpy>=1.0.1",
+    "k3d>=2.17.0",
+    "trame>=3.12.0",
+    "trame-jupyter-extension>=2.1.4",
+    "ipyvtklink>=0.2.2",
+    "jupyter-black>=0.4.0",
+    "anywidget>=0.9.21",
 ]
+
+[tool.uv.sources]
+harpy-analysis = { git = "https://github.com/saeyslab/harpy.git" }
