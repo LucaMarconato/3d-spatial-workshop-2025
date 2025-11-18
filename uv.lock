@@ -7442,8 +7442,8 @@ requires-dist = [
 
 [[package]]
 name = "spatialdata"
-version = "0.6.1.dev72+g32c9f5aac"
-source = { git = "https://github.com/scverse/spatialdata?rev=dask-unpinned-3d-support#32c9f5aac2b92463aa178337bf63cb6c29d21f23" }
+version = "0.6.1.dev73+g50091c827"
+source = { git = "https://github.com/scverse/spatialdata?rev=dask-unpinned-3d-support#50091c827926d3e1c1294de50766e87e859a056e" }
 dependencies = [
     { name = "anndata" },
     { name = "click" },
