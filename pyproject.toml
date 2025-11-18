@@ -26,7 +26,12 @@ dependencies = [
     "anywidget>=0.9.21",
     "itk>=5.4.4.post1",
     "igneous-pipeline>=4.32.0,!=4.33.0,!=4.34.0",
+    "dask>=2025.2.0",
+    "interscellar",
+    "ngff-zarr>=0.19.1",
 ]
 
 [tool.uv.sources]
 harpy-analysis = { git = "https://github.com/saeyslab/harpy.git" }
+interscellar = { path = "../InterSCellar", editable = true }
+# squidpy = { path = "../squidpy", editable = true }
