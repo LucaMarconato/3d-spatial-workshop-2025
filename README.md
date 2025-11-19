@@ -14,7 +14,13 @@ Install the environment using [uv](https://docs.astral.sh/uv/):
 uv sync --upgrade
 ```
 
-Activate the environment:
+Open `jupyter-lab`:
+
+```bash
+uv run jupyter-lab
+```
+
+You can also activate the environment:
 
 ```bash
 source .venv/bin/activate
