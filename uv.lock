@@ -7866,7 +7866,7 @@ wheels = [
 [[package]]
 name = "tissue-map-tools"
 version = "0.1.0"
-source = { git = "https://github.com/hms-dbmi/tissue-map-tools?rev=fixes-for-workshop#785870ab41ac5ff78300659f34c90be73d89e4fc" }
+source = { git = "https://github.com/hms-dbmi/tissue-map-tools?rev=fixes-for-workshop#b6bc51e59fe7cb2720cb6e4971b08b04918146ff" }
 dependencies = [
     { name = "anywidget" },
     { name = "cloud-volume" },
