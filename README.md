@@ -9,7 +9,7 @@ Workshop on 3D spatial omics data for the 2nd [scverse](https://scverse.org) con
 Install the environment using [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uv sync
+uv sync --upgrade
 ```
 
 Activate the environment:
