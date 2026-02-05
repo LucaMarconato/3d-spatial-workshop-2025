@@ -1,0 +1,99 @@
+{
+  "version": "1.0.18",
+  "name": "Merfish",
+  "datasets": [
+    {
+      "uid": "A",
+      "name": "My dataset",
+      "files": [
+        {
+          "fileType": "obsSets.csv",
+          "url": "http://127.0.0.1:15777/merfish_processed/mesh_celltype_real.csv",
+          "options": {
+            "obsIndex": "cell_id",
+            "obsSets": [
+              {
+                "name": "cluster",
+                "column": "cluster"
+              }
+            ]
+          },
+          "coordinationValues": {
+            "obsType": "cell"
+          }
+        },
+        {
+          "fileType": "obsSegmentations.ng-precomputed",
+          "url": "http://127.0.0.1:15777/merfish_mouse_ileum_precomputed/mesh_mip_0_err_40_unsharded",
+          "options": {
+            "dimensionX": 0.000001,
+            "dimensionY": 0.000001,
+            "dimensionZ": 0.000001,
+            "dimensionUnit": "m",
+            "projectionScale": 1650688
+          },
+          "coordinationValues": {
+            "fileUid": "melanom-meshes"
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "A"
+    },
+    "spatialTargetT": {
+      "A": 0
+    },
+    "spatialTargetX": {
+      "A": 0
+    },
+    "spatialTargetY": {
+      "A": 0
+    },
+    "spatialTargetZ": {
+      "A": 0
+    },
+    "spatialRotationX": {
+      "A": 0
+    },
+    "spatialRotationY": {
+      "A": 0
+    },
+    "spatialRotationZ": {
+      "A": 0
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "x": 9,
+      "y": 0,
+      "w": 3,
+      "h": 6,
+      "coordinationScopes": {
+        "dataset": "A"
+      }
+    },
+    {
+      "component": "neuroglancer",
+      "x": 0,
+      "y": 0,
+      "w": 9,
+      "h": 6,
+      "coordinationScopes": {
+        "dataset": "A",
+        "spatialTargetT": "A",
+        "spatialTargetX": "A",
+        "spatialTargetY": "A",
+        "spatialTargetZ": "A",
+        "spatialRotationX": "A",
+        "spatialRotationY": "A",
+        "spatialRotationZ": "A"
+      },
+      "coordinationScopesBy": {}
+    }
+  ],
+  "initStrategy": "auto"
+}
